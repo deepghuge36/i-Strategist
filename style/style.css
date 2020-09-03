@@ -303,80 +303,39 @@
   font-weight: 500;
 }
 
-@media only screen and (max-width:1024px) {
-  .footer_title {
-    font-size: 14px;
+@media only screen and (max-width: 320px) {
+  .header_main img {
+    height: 27px;
   }
-  .text-color {
-    font-size: 12px;
+  .contacts_phone {
+    padding-top: 5px;
   }
-  .one {
-    height: 40px;
+  .hero-inner {
+    top: 25px;
   }
-  .instructor_para {
+  .counter_title {
+    font-size: 20px;
+  }
+  .red_date {
+    font-size: 20px;
+  }
+  .sell_content h3 {
+    font-size: 30px;
+    padding-top: 25px;
+  }
+  .sell_content p {
     font-size: 11px;
+    line-height: 18px;
+  }
+  .instructor_image {
+    width: 100%;
+    height: auto;
   }
 }
 
-@media only screen and (max-width:768px) {
-  .hero-inner {
-    padding: 40px;
-  }
-  .hero-inner h1 {
-    font-size: 25px;
-  }
-  .hero-inner h2 {
-    font-size: 18px;
-  }
-  .counter_title {
-    font-size: 35px;
-  }
-  .para_skills p {
-    font-size: 12px;
-  }
-  .para_skills h4 {
-    font-size: 14px;
-    padding: 10px;
-  }
-  .class_benefits {
-    font-size: 2rem;
-  }
-  .instructor_image {
-    width: 50%;
-  }
-  .instructor_image img {
-    height: 250px;
-  }
-  .instructor_about {
-    padding-top: 20px;
-  }
-  .instructor_about_title {
-    font-size: 20px;
-  }
-  .instructor_name {
-    font-size: 18px;
-  }
-  .instructor_subHeading {
-    font-size: 15px;
-  }
-  .instructor_para p {
-    font-size: 12px;
-  }
-  .one {
-    height: 40px;
-  }
-  .foot-one {
-    font-size: 10px;
-    padding: 5px;
-  }
-  .footer_title {
-    font-size: 12px;
-  }
-  .copyright_text {
-    font-size: 9px;
-  }
-  .text-color {
-    font-size: 10px;
+@media only screen and (max-width: 425px) {
+  .header_main img {
+    height: 32px;
   }
 }
 
@@ -436,37 +395,80 @@
   }
 }
 
-@media only screen and (max-width: 425px) {
-  .header_main img {
-    height: 32px;
+@media only screen and (max-width:768px) {
+  .hero-inner {
+    padding: 40px;
+  }
+  .hero-inner h1 {
+    font-size: 25px;
+  }
+  .hero-inner h2 {
+    font-size: 18px;
+  }
+  .counter_title {
+    font-size: 35px;
+  }
+  .para_skills p {
+    font-size: 12px;
+  }
+  .para_skills h4 {
+    font-size: 14px;
+    padding: 10px;
+  }
+  .class_benefits {
+    font-size: 2rem;
+  }
+  .instructor_image {
+    width: 50%;
+  }
+  .instructor_image img {
+    height: auto;
+    width: 100%;
+  }
+  .instructor_about {
+    padding-top: 20px;
+  }
+  .instructor_about_title {
+    font-size: 20px;
+  }
+  .instructor_name {
+    font-size: 18px;
+  }
+  .instructor_subHeading {
+    font-size: 15px;
+  }
+  .instructor_para p {
+    font-size: 12px;
+  }
+  .one {
+    height: 40px;
+  }
+  .foot-one {
+    font-size: 10px;
+    padding: 5px;
+  }
+  .footer_title {
+    font-size: 12px;
+  }
+  .copyright_text {
+    font-size: 9px;
+  }
+  .text-color {
+    font-size: 10px;
   }
 }
 
-@media only screen and (max-width: 320px) {
-  .header_main img {
-    height: 27px;
+@media only screen and (max-width:1024px) {
+  .footer_title {
+    font-size: 14px;
   }
-  .contacts_phone {
-    padding-top: 5px;
+  .text-color {
+    font-size: 12px;
   }
-  .hero-inner {
-    top: 25px;
+  .one {
+    height: 40px;
   }
-  .counter_title {
-    font-size: 20px;
-  }
-  .red_date {
-    font-size: 20px;
-  }
-  .sell_content h3 {
-    font-size: 30px;
-    padding-top: 25px;
-  }
-  .sell_content p {
+  .instructor_para {
     font-size: 11px;
-    line-height: 18px;
-  }
-  .instructor_image {
-    width: 0;
   }
 }

@@ -113,9 +113,9 @@
   transition-delay: 0s;
 }
 
-@media only screen and (max-width:768px) {
+@media only screen and (max-width:320px) {
   .button_buy {
-    font-size: 25px;
+    font-size: 17px;
   }
 }
 
@@ -125,8 +125,8 @@
   }
 }
 
-@media only screen and (max-width:320px) {
+@media only screen and (max-width:768px) {
   .button_buy {
-    font-size: 17px;
+    font-size: 25px;
   }
 }

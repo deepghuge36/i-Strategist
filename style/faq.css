@@ -95,19 +95,10 @@
   padding: 30px
 }
 
-@media only screen and (max-width:768px) {
-  .faq-heading {
-    font-size: 17px;
-  }
+@media only screen and (max-width:375px) {
   .faq-text {
-    font-size: 14px;
-    padding-left: 80px;
-  }
-  .faq-heading {
-    text-indent: 80px;
-  }
-  .faq .faq-arrow {
-    right: 40px;
+    font-size: 10px;
+    padding-left: 10px;
   }
 }
 
@@ -127,9 +118,18 @@
   }
 }
 
-@media only screen and (max-width:375px) {
+@media only screen and (max-width:768px) {
+  .faq-heading {
+    font-size: 17px;
+  }
   .faq-text {
-    font-size: 10px;
-    padding-left: 10px;
+    font-size: 14px;
+    padding-left: 80px;
+  }
+  .faq-heading {
+    text-indent: 80px;
+  }
+  .faq .faq-arrow {
+    right: 40px;
   }
 }

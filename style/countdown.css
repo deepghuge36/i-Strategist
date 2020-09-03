@@ -46,9 +46,13 @@ body {
   border-radius: 5px
 }
 
-@media only screen and (max-width:425px) {
-  li span {
-    font-size: 25px;
+@media only screen and (max-width:320px) {
+  .red_text {
+    font-size: 10px;
+  }
+  .container_counters ul li {
+    margin: 0px 12px;
+    /* background-color: #fff; */
   }
   .container_counters ul {
     font-size: 10px;
@@ -61,13 +65,9 @@ body {
   }
 }
 
-@media only screen and (max-width:320px) {
-  .red_text {
-    font-size: 10px;
-  }
-  .container_counters ul li {
-    margin: 0px 12px;
-    /* background-color: #fff; */
+@media only screen and (max-width:425px) {
+  li span {
+    font-size: 25px;
   }
   .container_counters ul {
     font-size: 10px;

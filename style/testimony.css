@@ -90,7 +90,7 @@
   border-color: red;
 }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width:768px) {
   .testimonial {
     padding: 20px;
     text-align: center;
@@ -100,9 +100,6 @@
     position: static;
     margin: 0 auto 15px;
   }
-}
-
-@media only screen and (max-width:768px) {
   .testimonial_title {
     font-size: 30px;
   }
