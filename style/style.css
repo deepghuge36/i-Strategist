@@ -628,8 +628,17 @@
 
 @media (min-width:801px) {
   /* tablet, landscape iPad, lo-res laptops ands desktops */
+  .header_main img {
+    height: 55px;
+  }
+  .contacts_phone {
+    padding-top: 15px;
+  }
+  .contacts_phone a {
+    font-size: 17px;
+  }
   .hero-inner {
-    padding: 40px;
+    padding: 71px;
   }
   .hero-inner h1 {
     font-size: 31px;
@@ -696,14 +705,24 @@
 
 @media (min-width:1281px) {
   /* hi-res laptops and desktops */
+  .header_main img {
+    height: 55px;
+  }
+  .contacts_phone {
+    padding-top: 15px;
+  }
+  .contacts_phone a {
+    font-size: 17px;
+  }
   .hero-inner {
-    padding: 85px;
+    padding: 76px;
+    top: 48px;
   }
   .hero-inner h1 {
-    font-size: 60px;
+    font-size: 54px;
   }
   .hero-inner h2 {
-    font-size: 30px;
+    font-size: 23px;
   }
   .instructor_about {
     padding-top: 40px;
