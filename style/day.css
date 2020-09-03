@@ -135,7 +135,7 @@ body {
   transition-delay: 0.15s;
 }
 
-@media (max-width: 1000px) {
+@media only screen and (max-width: 1000px) {
   .wrap {
     flex-direction: column;
     width: 400px;
@@ -144,7 +144,7 @@ body {
   }
 }
 
-@media(max-width:768px) {
+@media only screen and (max-width:768px) {
   .wrap {
     width: 400px;
   }
@@ -159,7 +159,20 @@ body {
   }
 }
 
-@media (max-width:425px) {
+@media only screen and (max-width:425px) {
+  .wrap {
+    width: 325px;
+  }
+  .tile {
+    width: 250px;
+    height: 400px;
+  }
+  .tile p {
+    font-size: 10px;
+  }
+}
+
+@media only screen and (max-width:320px) {
   .wrap {
     width: 325px;
   }

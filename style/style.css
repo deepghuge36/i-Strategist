@@ -303,7 +303,7 @@
   font-weight: 500;
 }
 
-@media (max-width:1024px) {
+@media only screen and (max-width:1024px) {
   .footer_title {
     font-size: 14px;
   }
@@ -318,7 +318,7 @@
   }
 }
 
-@media (max-width:768px) {
+@media only screen and (max-width:768px) {
   .hero-inner {
     padding: 40px;
   }
@@ -380,7 +380,7 @@
   }
 }
 
-@media(max-width:425px) {
+@media only screen and (max-width:425px) {
   .para_skills, .instructor {
     flex-direction: column;
     justify-content: space-evenly;
@@ -433,5 +433,40 @@
   }
   .text-color {
     font-size: 13px;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .header_main img {
+    height: 32px;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .header_main img {
+    height: 27px;
+  }
+  .contacts_phone {
+    padding-top: 5px;
+  }
+  .hero-inner {
+    top: 25px;
+  }
+  .counter_title {
+    font-size: 20px;
+  }
+  .red_date {
+    font-size: 20px;
+  }
+  .sell_content h3 {
+    font-size: 30px;
+    padding-top: 25px;
+  }
+  .sell_content p {
+    font-size: 11px;
+    line-height: 18px;
+  }
+  .instructor_image {
+    width: 0;
   }
 }

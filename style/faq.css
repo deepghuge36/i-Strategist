@@ -95,7 +95,7 @@
   padding: 30px
 }
 
-@media (max-width:768px) {
+@media only screen and (max-width:768px) {
   .faq-heading {
     font-size: 17px;
   }
@@ -111,7 +111,7 @@
   }
 }
 
-@media (max-width:425px) {
+@media only screen and (max-width:425px) {
   .faq-heading {
     font-size: 14px;
   }
@@ -127,7 +127,7 @@
   }
 }
 
-@media(max-width:375px) {
+@media only screen and (max-width:375px) {
   .faq-text {
     font-size: 10px;
     padding-left: 10px;

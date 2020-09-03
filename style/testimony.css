@@ -102,7 +102,7 @@
   }
 }
 
-@media (max-width:768px) {
+@media only screen and (max-width:768px) {
   .testimonial_title {
     font-size: 30px;
   }
