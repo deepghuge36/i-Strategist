@@ -189,4 +189,14 @@
   .faq_heading {
     font-size: 60px;
   }
-}
+  .faq-heading {
+    font-size: 20px;
+    text-indent: 80px;
+  }
+  .faq-text {
+    font-size: 18px;
+    padding-left: 80px;
+  }
+  .faq .faq-arrow {
+    right: 238px;
+  }

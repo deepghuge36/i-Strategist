@@ -168,7 +168,7 @@
 .para_skills li {
   font-size: 20px;
   text-transform: none;
-  background-color: rgba(0, 0, 0);
+  background-color: black;
   color: #fff;
   border-radius: 20px;
   cursor: pointer;
@@ -712,11 +712,11 @@
     padding-top: 15px;
   }
   .contacts_phone a {
-    font-size: 17px;
+    font-size: 20px;
   }
   .hero-inner {
-    padding: 300px;
-    top: 48px;
+    padding: 95px;
+    top: 54px;
   }
   .hero-inner h1 {
     font-size: 54px;
@@ -724,13 +724,74 @@
   .hero-inner h2 {
     font-size: 23px;
   }
+  .counter_title {
+    font-size: 56px;
+  }
+  .red_date {
+    font-size: 65px;
+  }
+  .red_text {
+    font-size: 23px;
+  }
   .instructor_about {
-    padding-top: 40px;
+    /* padding-top: 40px; */
     padding-left: 0px;
   }
   .text-color {
     font-size: 20px;
   }
+  .sell_content h3 {
+    font-size: 65px;
+  }
+  .sell_content p {
+    font-size: 25px;
+  }
+  .para_skills, .wrap {
+    flex-direction: row;
+    /* justify-content: center; */
+    /* align-items: center; */
+  }
+  .para_skills h4 {
+    font-size: 20px;
+  }
+  .para_skills i {
+    font-size: 44px;
+  }
+  .para_skills p {
+    font-size: 15px;
+    padding: 0px 21px 22px;
+  }
+  .class_benefits h3 {
+    font-size: 50px;
+  }
+  .instructor {
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  .instructor_about {
+    text-align: justify;
+    padding-left: 0;
+  }
+  .instructor_about_title {
+    font-size: 40px;
+  }
+  .instructor_name {
+    font-size: 30px;
+  }
+  .instructor_subHeading {
+    font-size: 19px;
+  }
+  .instructor_para p {
+    font-size: 18px;
+  }
+  .instructor_image img {
+    height: 281px;
+  }
+  .foot-one {
+    justify-content: space-between;
+    text-align: justify;
+  }
+  .copyright_text {
+    font-size: 16px;
+  }
 }
-
-@media(min-width:1440px) {}

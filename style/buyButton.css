@@ -157,4 +157,9 @@
 
 @media (min-width:1281px) {
   /* hi-res laptops and desktops */
+  .button_buy {
+    font-size: 34px;
+  }
+}
+
 }

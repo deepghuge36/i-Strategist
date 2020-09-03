@@ -115,4 +115,19 @@ body {
 
 @media (min-width:1281px) {
   /* hi-res laptops and desktops */
+  .container_counters ul {
+    font-size: 20px;
+  }
+  li {
+    font-size: 31px;
+  }
+  .container_counters ul {
+    font-size: 31px;
+  }
+  li span {
+    font-size: 72px;
+  }
+  .container_counters ul li {
+    margin: 10px 35px;
+  }
 }

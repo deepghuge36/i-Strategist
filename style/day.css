@@ -236,4 +236,19 @@ body {
 
 @media (min-width:1281px) {
   /* hi-res laptops and desktops */
+  .wrap {
+    margin: 50px auto 0 auto;
+    width: 100%;
+    display: flex;
+    align-items: space-around;
+    max-width: 1200px;
+  }
+  .tile {
+    width: 380px;
+    height: 450px;
+  }
+  .tile p {
+    font-size: 18px;
+    font-weight: 500;
+  }
 }
