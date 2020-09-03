@@ -178,7 +178,7 @@ body {
 
 @media only screen and (max-width: 1000px) {
   .wrap {
-    /* flex-direction: column; */
+    flex-direction: column;
     width: 400px;
     justify-content: center;
     align-items: center;

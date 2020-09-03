@@ -418,8 +418,14 @@
   .class_benefits {
     font-size: 2rem;
   }
+  .instructor {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
   .instructor_image {
     width: 50%;
+    height: auto;
   }
   .instructor_image img {
     height: auto;
