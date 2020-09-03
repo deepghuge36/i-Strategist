@@ -46,6 +46,7 @@ body {
   border-radius: 5px
 }
 
+/*
 @media only screen and (max-width:320px) {
   .red_text {
     font-size: 10px;
@@ -53,13 +54,16 @@ body {
   .container_counters ul li {
     margin: 0px 12px;
     /* background-color: #fff; */
-  }
-  .container_counters ul {
-    font-size: 10px;
-  }
-}
 
-@media (max-width: 375px) {
+/* } */
+
+/* .container_counters ul {
+    font-size: 10px;
+  } */
+
+/* } */
+
+/* @media (max-width: 375px) {
   .container_counters ul {
     font-size: 8px;
   }
@@ -72,4 +76,43 @@ body {
   .container_counters ul {
     font-size: 10px;
   }
+} */
+
+@media (min-width:320px) {
+  /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */
+  .container_counters ul {
+    font-size: 10px;
+  }
+  li {
+    font-size: 4px;
+  }
+  .container_counters ul {
+    font-size: 12px;
+  }
+  li span {
+    font-size: 30px;
+  }
+  .container_counters ul li {
+    margin: 0px 10px
+  }
+}
+
+@media (min-width:480px) {
+  /* smartphones, Android phones, landscape iPhone */
+}
+
+@media (min-width:600px) {
+  /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */
+}
+
+@media (min-width:801px) {
+  /* tablet, landscape iPad, lo-res laptops ands desktops */
+}
+
+@media (min-width:1025px) {
+  /* big landscape tablets, laptops, and desktops */
+}
+
+@media (min-width:1281px) {
+  /* hi-res laptops and desktops */
 }

@@ -95,6 +95,7 @@
   padding: 30px
 }
 
+/*
 @media only screen and (max-width:375px) {
   .faq-text {
     font-size: 10px;
@@ -132,4 +133,57 @@
   .faq .faq-arrow {
     right: 40px;
   }
+} */
+
+@media (min-width:320px) {
+  /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */
+  .faq_heading {
+    font-size: 20px;
+  }
+  .faq-heading {
+    font-size: 12px;
+    text-indent: 20px;
+  }
+  .faq-text {
+    font-size: 10px;
+    padding-left: 20px;
+    padding-top: 23px;
+  }
+  .faq .faq-arrow {
+    right: 20px;
+  }
+}
+
+@media (min-width:480px) {
+  /* smartphones, Android phones, landscape iPhone */
+}
+
+@media (min-width:600px) {
+  /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */
+}
+
+@media (min-width:801px) {
+  /* tablet, landscape iPad, lo-res laptops ands desktops */
+  .faq-heading {
+    font-size: 14px;
+    text-indent: 80px;
+  }
+  .faq-text {
+    font-size: 12px;
+    padding-left: 80px;
+  }
+  .faq .faq-arrow {
+    right: 150px;
+  }
+}
+
+@media (min-width:1025px) {
+  /* big landscape tablets, laptops, and desktops */
+  .faq .faq-arrow {
+    right: 150px;
+  }
+}
+
+@media (min-width:1281px) {
+  /* hi-res laptops and desktops */
 }
