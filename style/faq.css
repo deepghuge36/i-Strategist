@@ -186,4 +186,7 @@
 
 @media (min-width:1281px) {
   /* hi-res laptops and desktops */
+  .faq_heading {
+    font-size: 60px;
+  }
 }
