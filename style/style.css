@@ -675,6 +675,9 @@
 
 @media (min-width:1025px) {
   /* big landscape tablets, laptops, and desktops */
+  .faq_heading {
+    font-size: 60px;
+  }
   .hero-inner {
     padding: 40px;
   }
