@@ -139,5 +139,35 @@ body {
   .wrap {
     flex-direction: column;
     width: 400px;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media(max-width:768px) {
+  .wrap {
+    width: 400px;
+  }
+  .tile {
+    width: 300px;
+    height: 450px;
+  }
+  .tile p {
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: 500;
+  }
+}
+
+@media (max-width:425px) {
+  .wrap {
+    width: 325px;
+  }
+  .tile {
+    width: 250px;
+    height: 400px;
+  }
+  .tile p {
+    font-size: 10px;
   }
 }

@@ -126,3 +126,10 @@
     right: 20px;
   }
 }
+
+@media(max-width:375px) {
+  .faq-text {
+    font-size: 10px;
+    padding-left: 10px;
+  }
+}

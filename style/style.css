@@ -375,6 +375,9 @@
   .copyright_text {
     font-size: 9px;
   }
+  .text-color {
+    font-size: 10px;
+  }
 }
 
 @media(max-width:425px) {

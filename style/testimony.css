@@ -101,3 +101,15 @@
     margin: 0 auto 15px;
   }
 }
+
+@media (max-width:768px) {
+  .testimonial_title {
+    font-size: 30px;
+  }
+  .testimonial .title {
+    font-size: 12px;
+  }
+  .testimonial .description {
+    font-size: 11px;
+  }
+}
