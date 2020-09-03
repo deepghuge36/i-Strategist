@@ -112,3 +112,15 @@
   -o-transition-delay: 0s;
   transition-delay: 0s;
 }
+
+@media(max-width:768px) {
+  .button_buy {
+    font-size: 25px;
+  }
+}
+
+@media (max-width:425px) {
+  .button_buy {
+    font-size: 20px;
+  }
+}

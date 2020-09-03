@@ -14,7 +14,8 @@ body {
   width: 380px;
   height: 450px;
   margin: 10px;
-  background-color: #99aeff;
+  /* background-color: #99aeff; */
+  background-color: white;
   display: inline-block;
   background-size: cover;
   position: relative;
@@ -27,10 +28,12 @@ body {
 }
 
 .tile img {
-  height: 100%;
+  display: block;
+  margin: 0 auto;
+  height: 75%;
   width: 100%;
   position: absolute;
-  top: 0;
+  top: 25px;
   left: 0;
   z-index: 0;
   transition: all 0.4s ease-out;

@@ -9,13 +9,15 @@ li {
 li span {
   display: block;
   font-size: 3.5rem;
+  margin-top: 10px;
 }
 
 body {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  background-color: #f5f3ee;
+  /* background-color: #f5f3ee; */
+  background-color: white;
   display: -webkit-box;
   display: -ms-flexbox;
   display: block;
@@ -27,12 +29,28 @@ body {
   padding: 0.5rem;
   text-align: center;
 }
+
 .container_counters ul {
-color: #333;
-margin: 5px;
+  color: #333;
+  margin: 5px;
 }
+
+.container_counters ul li {
+  margin: 0 25px;
+  /* background-color: #fff; */
+}
+
 .para_skills li {
-  margin:10px;
-border: 1px solid black;
-border-radius:5px
+  margin: 10px;
+  border: 1px solid black;
+  border-radius: 5px
+}
+
+@media (max-width:425px) {
+  li span {
+    font-size: 25px;
+  }
+  .container_counters ul {
+    font-size: 10px;
+  }
 }
